@@ -2,6 +2,8 @@
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -22,9 +24,8 @@ p {
   padding: 2rem;
   background-color: antiquewhite;
   border-radius: 10px;
-  /* box-shadow: 0 4px 8px rgb(53, 49, 45) */
+ 
 }
-
 /* Navbar styles for desktop */
 ul.navbar {
   display: flex;
@@ -32,14 +33,13 @@ ul.navbar {
   align-items: center;
   gap: 1rem;
   background-color: #333;
-  padding: 1rem;
+  padding: 1.2rem;
   list-style-type: none;
 }
 
 ul.navbar li a {
   color: black;
   text-decoration: none;
-  background-color: #555;
   background-color:rgb(228, 144, 61);
   padding: 0.75rem 1.25rem;
   border-radius: 5px;
@@ -89,10 +89,8 @@ ul.navbar li a:hover {
 
   /* Navbar: Stack items vertically on smaller screens */
   ul.navbar {
-    display:inline-flex;
+    display:flex;
     align-items: center;
-    /* flex-direction:row;
-    align-items: stretch; */
   }
 
   ul.navbar li a {
